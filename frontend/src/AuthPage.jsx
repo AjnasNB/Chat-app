@@ -5,7 +5,7 @@ const AuthPage = (props) => {
         e.preventDefault();
         const { value } = e.target[0];
         axios.post(
-            'http://localhost:3001/authenticate',
+            'https://cozy-blini-77babb.netlify.app/authenticate',
             { username: value
             }
         )
